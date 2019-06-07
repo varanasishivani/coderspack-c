@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main ()
+{
+  float c,f;
+  printf("enter the t in c");
+  scanf("%f",&c);
+  c=5*(f-32)/9;
+  printf("f:%.2f",f);
+}

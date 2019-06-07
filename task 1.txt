@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main ()
+{
+   char yourname[100];
+   int yourage;
+   long int yourmobilenumber;
+
+   printf("Whats your name?\t");
+   scanf("%s",yourname);
+   printf("How old are you?\t");
+   scanf("%d",&yourage);
+   printf("whats your mobile number?\t");
+   scanf("%ld",&yourmobilenumber );
+   printf("You are %d years old and your name is %sand your mobile number is %ld\n \n\n\n",yourage,yourname,yourmobilenumber);
+   
+}

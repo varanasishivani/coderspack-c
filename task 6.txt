@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int main()
+
+{
+    
+int r,n,sum,c;
+ 
+printf(" value of n:");
+  
+scanf("%d",&n);
+    
+while(n>0)
+ 
+{  
+ r=n%10;
+      
+ c=r*r*r;
+       
+ sum=sum+c;
+       
+ n=n/10;
+   
+ }
+    
+if(sum==n)
+   
+ printf("it is armstrong");
+   
+ else
+   
+ printf("it is not armstrong");
+
+}

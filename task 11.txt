@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+struct bookandstore
+
+{
+    
+char title[30];
+    
+char author[30];
+    
+char genre[30];
+
+}s;
+
+int main()
+
+{
+    
+printf("enter title:");
+    
+scanf("%s\n",s.title);
+    
+printf("enter author:");
+    
+scanf("%s\n",s.author);
+   
+printf("enter genre:");
+    
+scanf("%s\n",s.genre);
+    
+printf("%s",s.title);
+    
+printf("%s",s.author);
+    
+printf("%s",s.genre);
+   
+ 
+}
